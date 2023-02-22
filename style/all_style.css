@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/bg-color.jpg);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+.seach {
+    height: 30px;
+    border-radius: 10px;
+    border: orangered solid 1px;
+    width: 70%;
+    text-align: center;
+}
+
+.login1 {
+    margin-top: 10px;
+
+}
+
+.login2 {
+
+    text-align: center;
+    font-size: medium;
+    border: orange dashed 5px;
+    border-radius: 30px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    text-decoration: none;
+    color: orangered;
+
+}
+
+.login2:hover {
+    border: orangered dashed 5px;
+    box-shadow: orange 1px 5px 5px 2px;
+    transition-duration: 0.5s;
+
+}
+
+.nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: large;
+    padding: 5px;
+    height: 100%;
+    color: orangered;
+    text-decoration: none;
+    background-image: url(../img/nav.jfif);
+    font-weight: bold;
+
+}
+
+.nav li {
+    border: orange solid 3px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+
+}
+
+.nav li:hover {
+    border: orangered dashed 3px;
+    box-shadow: lightcoral 1px 5px 5px 2px;
+    transition-duration: 0.5s;
+
+}
+
+.article1 {
+    text-align: center;
+    padding: 50px 120px 50px 120px;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 20px;
+    color: tomato;
+}
+
+.title {
+    padding: 10px;
+}
+
+tr img:hover {
+    transform: translateY(-10px);
+    box-shadow: orange 5px 5px 15px 5px;
+    transition-duration: 0.5s;
+}
+
+
+.part2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.article2 {
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+
+}
+
+aside {
+    padding: 5px;
+    border: orange solid 2px;
+    background-image: url(../img/nav.jpg);
+    background-repeat:no-repeat;
+    
+}
+
+h3 {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.table_aside tr td {
+    padding: 20px 30px 20px 30px;
+    text-align: center;
+}
