@@ -17,6 +17,7 @@ body {
     background-image: url(../img/bg-color.jpg);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+
 }
 
 
@@ -28,8 +29,13 @@ body {
     text-align: center;
 }
 
+input {
+    outline: none;
+}
+
 .login1 {
-    margin-top: 10px;
+    margin-top: 2.8vh;
+    display: flex;
 
 }
 
@@ -37,17 +43,18 @@ body {
 
     text-align: center;
     font-size: medium;
-    border: orange dashed 5px;
+    border: orange dashed 1vh;
     border-radius: 30px;
     background-color: lightgoldenrodyellow;
-    padding: 10px;
+    padding: 2.8vh;
     text-decoration: none;
     color: orangered;
+    
 
 }
 
 .login2:hover {
-    border: orangered dashed 5px;
+    border: orangered dashed 1vh;
     box-shadow: orange 1px 5px 5px 2px;
     transition-duration: 0.5s;
 
@@ -61,17 +68,30 @@ body {
     font-size: large;
     padding: 5px;
     height: 100%;
-    color: orangered;
     text-decoration: none;
     background-image: url(../img/nav.jfif);
     font-weight: bold;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 8888;
 
 }
+
+.nav li a {
+    text-decoration: none;
+    color: orangered;
+
+}
+
 
 .nav li {
     border: orange solid 3px;
     padding: 10px;
     background-color: lightgoldenrodyellow;
+
 
 }
 
@@ -80,6 +100,18 @@ body {
     box-shadow: lightcoral 1px 5px 5px 2px;
     transition-duration: 0.5s;
 
+}
+
+.nav li:hover .small_nav {
+    width: 75px;
+    display: block;
+    padding-top: 14px;
+}
+
+.small_nav {
+    display: none;
+    position: absolute;
+    list-style: none;
 }
 
 .article1 {
@@ -94,19 +126,21 @@ h2 {
 }
 
 .title {
+    font-size: 1.5vw;
     padding: 10px;
 }
 
 tr img:hover {
     transform: translateY(-10px);
     box-shadow: orange 5px 5px 15px 5px;
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 
 
 .part2 {
     display: flex;
     justify-content: space-around;
+
 }
 
 .article2 {
@@ -120,8 +154,8 @@ aside {
     padding: 5px;
     border: orange solid 2px;
     background-image: url(../img/nav.jpg);
-    background-repeat:no-repeat;
-    
+    background-repeat: no-repeat;
+
 }
 
 h3 {
@@ -138,4 +172,25 @@ h3 {
 .table_aside tr td {
     padding: 20px 30px 20px 30px;
     text-align: center;
+}
+
+.box {
+    /* background-color: white; */
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    animation: box 10s ease-out infinite;
+    animation-direction: alternate;
+}
+
+@keyframes box {
+
+    from {
+        left: 0%;
+    }
+
+    to {
+        left: 50%;
+    }
+
 }
