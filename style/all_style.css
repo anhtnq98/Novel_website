@@ -159,11 +159,11 @@ tr img:hover {
 }
 
 aside {
-    padding: 5px;
+    padding: 4px;
     border: orange solid 2px;
     border-radius: 30px;
     background-image: url(../img/nav.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     /* z-index: 8888; */
 }
 
@@ -176,6 +176,22 @@ h3 {
     background-color: orange;
     color: white;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.new-update {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.new-update img {
+    padding: 5px;
+    object-fit: cover;
+}
+
+#bottom {
+    padding-bottom: 20px;
 }
 
 .table_aside tr td {
