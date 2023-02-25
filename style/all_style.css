@@ -161,9 +161,10 @@ tr img:hover {
 aside {
     padding: 5px;
     border: orange solid 2px;
+    border-radius: 30px;
     background-image: url(../img/nav.jpg);
     background-repeat: no-repeat;
-
+    /* z-index: 8888; */
 }
 
 h3 {
