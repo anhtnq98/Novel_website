@@ -34,7 +34,6 @@ input {
 }
 
 .login1 {
-    margin-top: 2.8vh;
     display: flex;
 
 }
@@ -82,8 +81,12 @@ nav {
 
 .nav li a {
     text-decoration: none;
-    color: orangered;
+    color: rgb(223, 108, 8);
 
+}
+
+.nav li a:hover {
+    color: orangered;
 }
 
 
@@ -112,6 +115,11 @@ nav {
     display: none;
     position: absolute;
     list-style: none;
+}
+
+.small_nav li:hover {
+    transition-duration: 0.75s;
+    color: orangered;
 }
 
 .article1 {
